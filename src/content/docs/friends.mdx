@@ -1,0 +1,21 @@
+---
+title: 朋友们
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import friends from '../../data/friends.json';
+
+链接到宇宙的其他角落。
+
+<CardGrid>
+  {
+    friends.map((friend) => (
+      <LinkCard
+        title={friend.title}
+        description={friend.description}
+        href={friend.href}
+        key={friend.href}
+      />
+    ))
+  }
+</CardGrid>

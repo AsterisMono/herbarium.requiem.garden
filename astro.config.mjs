@@ -26,6 +26,11 @@ export default defineConfig({
           label: "GitHub",
           href: "https://github.com/AsterisMono/herbarium.requiem.garden",
         },
+        {
+          icon: "telegram",
+          label: "Telegram",
+          href: "https://t.me/noa_virellia",
+        },
       ],
       plugins: [
         // Generate the Obsidian vault pages.

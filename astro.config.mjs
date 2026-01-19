@@ -8,7 +8,7 @@ import starlightUiTweaks from "starlight-ui-tweaks";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Herbarium",
+      title: "Herbarium.Requiem.Garden",
       defaultLocale: "root",
       locales: {
         root: {
@@ -58,9 +58,9 @@ export default defineConfig({
                   label: "Friends",
                   href: "/friends",
                 },
-              ]
-            }
-          }
+              ],
+            },
+          },
         }),
         starlightGiscus({
           repo: "AsterisMono/herbarium.requiem.garden",
@@ -70,7 +70,7 @@ export default defineConfig({
         }),
       ],
       sidebar: [obsidianSidebarGroup],
-      customCss: ["./src/custom.css"],
+      customCss: ["./src/custom.css", "./src/fonts/font-face.css"],
       pagination: false,
     }),
   ],

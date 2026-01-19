@@ -25,3 +25,8 @@
 #starlight__sidebar ul.top-level > li > details > summary {
   display: none;
 }
+
+.site-title {
+  font-family: "Yipes", sans-serif;
+  letter-spacing: 0.0025em;
+}

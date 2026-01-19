@@ -11,19 +11,15 @@
   margin-top: 6px;
 }
 
-#starlight__sidebar ul.top-level > li > details > ul > li {
+#starlight__sidebar ul.top-level > li:has(> details) {
   margin-top: 0;
   padding: 10px 0;
   border-top: 1px solid var(--sl-color-hairline-light);
 }
 
-#starlight__sidebar ul.top-level > li > details > ul > li:first-child {
+#starlight__sidebar ul.top-level > li:first-child:has(> details) {
   border-top: none;
-  padding-top: 0;
-}
-
-#starlight__sidebar ul.top-level > li > details > summary {
-  display: none;
+  padding-top: 4px;
 }
 
 .site-title {

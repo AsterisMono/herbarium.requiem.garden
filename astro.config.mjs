@@ -1,5 +1,6 @@
 // @ts-check
 import starlight from "@astrojs/starlight";
+import starlightUtils from "@lorenzo_lewis/starlight-utils";
 import { defineConfig } from "astro/config";
 import starlightGiscus from "starlight-giscus";
 import starlightObsidian, { obsidianSidebarGroup } from "starlight-obsidian";
@@ -68,8 +69,19 @@ export default defineConfig({
           category: "Announcements",
           categoryId: "DIC_kwDOQ7tNcM4C1Ib-",
         }),
+        starlightUtils({
+          multiSidebar: {
+            switcherStyle: "horizontalList",
+          },
+        }),
       ],
-      sidebar: [obsidianSidebarGroup],
+      sidebar: [
+        obsidianSidebarGroup,
+        {
+          label: "作品",
+          autogenerate: { directory: "/works" },
+        },
+      ],
       customCss: ["./src/custom.css", "./src/fonts/font-face.css"],
       pagination: false,
     }),

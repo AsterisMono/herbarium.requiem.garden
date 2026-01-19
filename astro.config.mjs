@@ -47,6 +47,20 @@ export default defineConfig({
               href: "/friends",
             },
           ],
+          locales: {
+            en: {
+              navbarLinks: [
+                {
+                  label: "About Me",
+                  href: "/aboutme",
+                },
+                {
+                  label: "Friends",
+                  href: "/friends",
+                },
+              ]
+            }
+          }
         }),
         starlightGiscus({
           repo: "AsterisMono/herbarium.requiem.garden",

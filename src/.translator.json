@@ -1,0 +1,156 @@
+{
+  "index.mdx": {
+    "sourceHash": "562e95fc3b3035e6bfde0629a47357fa5bceb46ec562591a90c57ea255f1b412",
+    "relativePath": "index.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "friends.mdx": {
+    "sourceHash": "dd0c46e367ff403fb133f6e00ea97dcbd784f1ce1342581f0ecbcd5e33a9e1c5",
+    "relativePath": "friends.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "aboutme": {
+    "sourceHash": "8573eaa1a5b99d64b8061945eb0c3b943e16057d7c6273d2a4f72a9899402bff",
+    "relativePath": "notes/关于我.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "works/🗣️ Talks and Presentations/nixcn-meetup-2.mdx": {
+    "sourceHash": "4803d704a3a405f367d75e4e58f5f361c7e6a03dec4ec1b1a5ebd09f4a4842df",
+    "relativePath": "works/🗣️ Talks and Presentations/nixcn-meetup-2.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "works/🗣️ Talks and Presentations/nixcn-meetup-1.mdx": {
+    "sourceHash": "727ba71c3c9802ca6ddfc37c800625b8ad98010bdb95f4e76c7aa6ce4af2277a",
+    "relativePath": "works/🗣️ Talks and Presentations/nixcn-meetup-1.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "works/🗂️ Projects/pipra.mdx": {
+    "sourceHash": "5dbaee02b3883b1a5923d8a113a1b168384174ebfd5de6ad8e53bc226eea6072",
+    "relativePath": "works/🗂️ Projects/pipra.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "works/🗂️ Projects/mimosa.mdx": {
+    "sourceHash": "52b48346e29069ce451461ea6026e6467740b4831a7978d5356bfda83409e8d6",
+    "relativePath": "works/🗂️ Projects/mimosa.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "works/🗂️ Projects/herbarium.mdx": {
+    "sourceHash": "3031faad23f0e19f0fbf9c9faf61a51c59f3511352d7fe9f5c3c28abb182a689",
+    "relativePath": "works/🗂️ Projects/herbarium.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "works/🗂️ Projects/flake.mdx": {
+    "sourceHash": "2429e346d3bd85e63ad0aa4e79c790462dd969d3483cc19937f4a0e4af482f6c",
+    "relativePath": "works/🗂️ Projects/flake.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "works/🎨 Art/vrchat-avatars.mdx": {
+    "sourceHash": "6daae46834fb1a2ca7182f494948cc91cab4dd282b65592277147f65cd018fb2",
+    "relativePath": "works/🎨 Art/vrchat-avatars.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "works/🎨 Art/vr-photography.mdx": {
+    "sourceHash": "183dbeb0fb15b71e1f2fc2e9ec73b7b70c2953cb29ef16629c156bd49bcd1118",
+    "relativePath": "works/🎨 Art/vr-photography.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "works/🎨 Art/requiem-garden.mdx": {
+    "sourceHash": "083274196cd5e2a669a0564ba9f096838f383325eeb228ff20ec5ce1fc334e4c",
+    "relativePath": "works/🎨 Art/requiem-garden.mdx",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "how-to-run-from-the-mess-you-made": {
+    "sourceHash": "dcf2e4e7796e3f1972d58fd3cc00e91fe58147f7b35fbcea47e910ca79bccad8",
+    "relativePath": "notes/🔧 工具/如何彻底清除 Git Repository 里不想被人看到的内容.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "vim-tips-and-tricks": {
+    "sourceHash": "65563c503c4f9db4ed901c37e7e6b601e83b5ef227cfab26409cbd2e807b29bd",
+    "relativePath": "notes/🔧 工具/Vim 使用技巧.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "vllm-serve": {
+    "sourceHash": "791039550abc878849aa0935ee0f2384a5b9599a762d9885a3d3020e5ed0cfad",
+    "relativePath": "notes/📒 杂记/vllm-serve.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "tailscale-mysterious-derper-bug": {
+    "sourceHash": "96e23abfbf68c1f52d1db6d6e3480bf458e77016d09c7b0621f1053e87508486",
+    "relativePath": "notes/👷 动手做/记一次 Bug 定位：Tailscale Derper 自签 IP 证书连接问题.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "systemd-hrt-reminder": {
+    "sourceHash": "f74995f4495673ee236667129046dfaa61b051dec8a560dac370676ff1758f43",
+    "relativePath": "notes/🐧 Linux/用 systemd.timer 实现萌萌服药提醒.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "nanopi-r2s-nixos": {
+    "sourceHash": "2b158e6b6dc93af90f74f52a35674dc872ad8247183284e2cf54e84fe3b463e4",
+    "relativePath": "notes/🐧 Linux/在 NanoPi R2S 上运行 NixOS.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "openwrt-mwan3": {
+    "sourceHash": "ecc093d0828cdc76489b3db3ae443c672ab15cae723d881785e2ea5be45dede7",
+    "relativePath": "notes/🌐 网络/使用 OpenWRT 搭建四路 WAN 负载均衡网关.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "folded-2023": {
+    "sourceHash": "f5044b70b9330ee2b15b3ea79cb9b966e4d7b105fd8f88420c1adc0652929d56",
+    "relativePath": "notes/🌄 文学/折叠：2023 年 2 月.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "lyra-and-noa": {
+    "sourceHash": "d1fa810d5f8ffe24907969a6ef9a3d3b9aab31c338dbcde52ea537a98b5dff08",
+    "relativePath": "notes/🌄 文学/她为我取名的那一天 —— 我和 Noa 的相遇.md",
+    "completedLangs": [
+      "en"
+    ]
+  },
+  "falling-light": {
+    "sourceHash": "e1c929503ee373f6f832c0b38e800088c2c8f2a3c9264375ea03285185990ed9",
+    "relativePath": "notes/🌄 文学/坠光.md",
+    "completedLangs": [
+      "en"
+    ]
+  }
+}

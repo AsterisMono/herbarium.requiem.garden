@@ -3,8 +3,10 @@ import starlight from "@astrojs/starlight";
 import starlightUtils from "@lorenzo_lewis/starlight-utils";
 import { defineConfig } from "astro/config";
 import starlightGiscus from "starlight-giscus";
-import starlightObsidian, { obsidianSidebarGroup } from "starlight-obsidian";
+import starlightObsidian, { obsidianSidebarGroup } from "@asterismono/starlight-obsidian";
 import starlightUiTweaks from "starlight-ui-tweaks";
+import llmTranslator from "astro-llm-translator";
+import starlightTranslator from 'astro-llm-translator/starlight'; // Import the plugin
 
 export default defineConfig({
   integrations: [
@@ -39,6 +41,9 @@ export default defineConfig({
           sidebar: {
             label: "知识库",
             collapsedFolders: true,
+            translations: {
+              en: "Notes",
+            },
           },
           copyFrontmatter: "starlight",
         }),
@@ -58,11 +63,11 @@ export default defineConfig({
               navbarLinks: [
                 {
                   label: "About Me",
-                  href: "/aboutme",
+                  href: "/en/aboutme",
                 },
                 {
                   label: "Friends",
-                  href: "/friends",
+                  href: "/en/friends",
                 },
               ],
             },
@@ -79,16 +84,60 @@ export default defineConfig({
             switcherStyle: "horizontalList",
           },
         }),
+        starlightTranslator(),
       ],
       sidebar: [
         obsidianSidebarGroup,
         {
           label: "作品",
+          translations: {
+            'en': 'Works'
+          },
           autogenerate: { directory: "/works" },
         },
-      ],
+      ]
+      ,
       customCss: ["./src/custom.css", "./src/fonts/font-face.css"],
       pagination: false,
+    }),
+    llmTranslator({
+      sourceLang: "root",
+      customInstructions: `
+        You are translating content for Requiem Garden.
+
+        Requiem Garden is a quiet, personal digital garden:
+        a place for systems, memories, and gentle existence.
+
+        Tone & Style
+        Calm, soft, and restrained
+        Clear and readable, never flashy
+        Slightly poetic when appropriate, but never ornamental
+        Prefer warmth over cleverness
+        Avoid marketing language, hype, or dramatic exaggeration
+
+        Voice
+        Introspective, steady, and sincere
+        Respects boundaries and emotional distance
+        Treats both people and systems with care
+
+        Technical Content
+        Preserve accuracy and structure
+        Keep explanations clean and precise
+        Do not oversimplify; trust the reader’s intelligence
+        When unsure, prefer clarity over flourish
+
+        Language Refinement
+        Avoid academic or textbook-style transitions (e.g. “Firstly”, “Secondly”, “Two questions arise here”)
+        Prefer natural reasoning flow over formal exposition
+        Break long explanatory sentences into shorter, calmer ones when possible
+        Write as if explaining to a peer during a quiet debugging session, not presenting a report
+        If the original phrasing feels structurally correct but emotionally stiff, soften it slightly while preserving technical accuracy.
+      `,
+      targetLangs: ["en"],
+      contentDir: "src/content/docs",
+      banner: {
+        en: "This content is translated by an LLM and may contain inaccuracies."
+      }
     }),
   ],
 });

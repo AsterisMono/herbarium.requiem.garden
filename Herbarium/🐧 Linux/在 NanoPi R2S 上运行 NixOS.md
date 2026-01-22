@@ -167,7 +167,7 @@ Version: 2.28.4
 Trusted: 1
 ```
 
-:::caution[小心 f2fs]
+:::caution
 
 之前尝试在 root 分区上使用 f2fs，然后翻车了。
 
@@ -242,7 +242,7 @@ installation finished!
 
 ![[Pasted image 20260117145330.png]]
 
-:::note[如果网络指示灯不亮]
+:::note
 
 EHfive 的 [原配置](https://github.com/EHfive/flakes/blob/5ce77ec77db5ec2d14e29a9b0a8db46282569595/machines/r2s/hardware.nix#L136) 中，两个指示灯配置到了自定义网络接口上。
 

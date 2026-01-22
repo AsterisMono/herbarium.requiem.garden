@@ -1,0 +1,23 @@
+---
+title: Friends
+banner:
+  content: This content is translated by an LLM and may contain inaccuracies.
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import friends from '../../../data/friends.json';
+
+Links to other corners of the universe.
+
+<CardGrid>
+  {
+    friends.map((friend) => (
+      <LinkCard
+        title={friend.title}
+        description={friend.description}
+        href={friend.href}
+        key={friend.href}
+      />
+    ))
+  }
+</CardGrid>

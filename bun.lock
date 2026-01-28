@@ -4,14 +4,14 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "@asterismono/starlight-obsidian": "^0.11.2",
         "@astrojs/starlight": "^0.37.3",
         "@lorenzo_lewis/starlight-utils": "^0.3.2",
         "astro": "^5.6.1",
         "astro-embed": "^0.12.0",
-        "astro-llm-translator": "^1.0.0",
+        "astro-llm-translator": "^1.1.1",
         "sharp": "^0.34.2",
         "starlight-giscus": "^0.8.1",
+        "starlight-obsidian": "^0.11.0",
         "starlight-ui-tweaks": "^0.2.0",
       },
       "devDependencies": {
@@ -21,8 +21,6 @@
     },
   },
   "packages": {
-    "@asterismono/starlight-obsidian": ["@asterismono/starlight-obsidian@0.11.2", "", { "dependencies": { "@astro-community/astro-embed-twitter": "^0.5.8", "@astro-community/astro-embed-youtube": "^0.5.6", "decode-uri-component": "^0.4.1", "github-slugger": "^2.0.0", "globby": "^14.0.2", "hast-util-to-html": "^9.0.4", "is-absolute-url": "^4.0.1", "mdast-util-find-and-replace": "^3.0.1", "mdast-util-from-markdown": "^2.0.2", "mdast-util-to-hast": "^13.2.0", "nanoid": "^5.0.9", "rehype": "^13.0.2", "rehype-katex": "^7.0.1", "rehype-mermaid": "^2.1.0", "remark": "^15.0.1", "remark-frontmatter": "^5.0.0", "remark-gfm": "^4.0.0", "remark-math": "^6.0.0", "unist-util-visit": "^5.0.0", "vfile": "^6.0.3", "yaml": "^2.6.1" }, "peerDependencies": { "@astrojs/starlight": ">=0.34.0" } }, "sha512-yxaWFXkd1E6I5Pk0YwlBfzGUHD+3EYeWAPTLes184cPKTnBV5yWd1PjnCKLm8bHCqv2sH5pEYOkhuuGQM0dBtg=="],
-
     "@astro-community/astro-embed-baseline-status": ["@astro-community/astro-embed-baseline-status@0.2.2", "", { "dependencies": { "@astro-community/astro-embed-utils": "^0.2.0" } }, "sha512-07TBEb+xQWWZfMuoHohcZv/r2VSB80/1xN5iLhzSqavLmdsMyebEnbc6tvw3yMkxvX9IBLduNA5SxvVkpmowNQ=="],
 
     "@astro-community/astro-embed-bluesky": ["@astro-community/astro-embed-bluesky@0.1.6", "", { "dependencies": { "@atproto/api": "^0.13.14" } }, "sha512-3y6Y3cRelLnR9AYMItmEAjcr83KAEa6WvsxQ1eHq1cPBzICXknuzphaZlmQZ+QG5NTtmEJD+2lQWrFba/BfM1A=="],
@@ -393,7 +391,7 @@
 
     "astro-integration-kit": ["astro-integration-kit@0.18.0", "", { "dependencies": { "pathe": "^1.1.2", "recast": "^0.23.7" }, "peerDependencies": { "astro": "^4.12.0 || ^5.0.0" } }, "sha512-Z0QW5IQjosuKQDEGYYkvUX6EhEtrmE4/oViqWz23QveV8U7AuyFsTdg00WRNPevWZl/5a4lLUeDpv4bCRynRRg=="],
 
-    "astro-llm-translator": ["astro-llm-translator@1.0.0", "", { "dependencies": { "dotenv": "^17.2.3", "github-slugger": "^2.0.0", "glob": "^13.0.0", "gray-matter": "^4.0.3", "zod": "3" }, "peerDependencies": { "astro": "^5.0.0", "openai": "^4.0.0 || ^5.0.0 || ^6.0.0" } }, "sha512-sw8zAZ/Zo3IKPJzHZV/B7SELAenBzoQayd0ktZ8Uiu+jsj5AUl+OV2tD0HlSRMARC3PwcBInHkJETGv4GcAMNQ=="],
+    "astro-llm-translator": ["astro-llm-translator@1.1.1", "", { "dependencies": { "dotenv": "^17.2.3", "github-slugger": "^2.0.0", "glob": "^13.0.0", "gray-matter": "^4.0.3", "zod": "3" }, "peerDependencies": { "astro": "^5.0.0", "openai": "^4.0.0 || ^5.0.0 || ^6.0.0" } }, "sha512-u28aze4wofKef8SFVYsIk2DQTldZZJzYY2JJD9bOwi+ttQSVvT4Mww3hzYjGWXpZk2QZSthx2grYCBoPETya0g=="],
 
     "await-lock": ["await-lock@2.2.2", "", {}, "sha512-aDczADvlvTGajTDjcjpJMqRkOF6Qdz3YbPZm/PyW6tKPkx2hlYBzxMhEywM/tU72HrVZjgl5VCdRuMlA7pZ8Gw=="],
 
@@ -1116,6 +1114,8 @@
     "sprintf-js": ["sprintf-js@1.0.3", "", {}, "sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g=="],
 
     "starlight-giscus": ["starlight-giscus@0.8.1", "", { "peerDependencies": { "@astrojs/starlight": ">=0.35.0" } }, "sha512-etgWym6KpHeNSkbggEhpGEPNaLIwypWdvE7BxNFHGUkjiq6EYSJhr5zoMGZ9QfnMdkcj8PqKrJTM88YdCSEiDQ=="],
+
+    "starlight-obsidian": ["starlight-obsidian@0.11.0", "", { "dependencies": { "@astro-community/astro-embed-twitter": "^0.5.8", "@astro-community/astro-embed-youtube": "^0.5.6", "decode-uri-component": "^0.4.1", "github-slugger": "^2.0.0", "globby": "^14.0.2", "hast-util-to-html": "^9.0.4", "is-absolute-url": "^4.0.1", "mdast-util-find-and-replace": "^3.0.1", "mdast-util-from-markdown": "^2.0.2", "mdast-util-to-hast": "^13.2.0", "nanoid": "^5.0.9", "rehype": "^13.0.2", "rehype-katex": "^7.0.1", "rehype-mermaid": "^2.1.0", "remark": "^15.0.1", "remark-frontmatter": "^5.0.0", "remark-gfm": "^4.0.0", "remark-math": "^6.0.0", "unist-util-visit": "^5.0.0", "vfile": "^6.0.3", "yaml": "^2.6.1" }, "peerDependencies": { "@astrojs/starlight": ">=0.34.0" } }, "sha512-L/A4d3APxhqgvikBjC2NjdTI16NxzZ7xEgL4oYcLDwrvLbwcQOYVHO3Lth/qPyl/z2fGI7xTc+87/B2lXUi83A=="],
 
     "starlight-ui-tweaks": ["starlight-ui-tweaks@0.2.0", "", { "peerDependencies": { "@astrojs/starlight": ">=0.36" } }, "sha512-KbURk1HA1Sgb7N4wVo3S6RkiA47G0KQ193MbNxBiedID6mwJrZSrOtpUqhkoF+e/IwdzAe+NnM1I5TJx4pk3JA=="],
 

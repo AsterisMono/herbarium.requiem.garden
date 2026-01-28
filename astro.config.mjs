@@ -3,7 +3,7 @@ import starlight from "@astrojs/starlight";
 import starlightUtils from "@lorenzo_lewis/starlight-utils";
 import { defineConfig } from "astro/config";
 import starlightGiscus from "starlight-giscus";
-import starlightObsidian, { obsidianSidebarGroup } from "@asterismono/starlight-obsidian";
+import starlightObsidian, { obsidianSidebarGroup } from "starlight-obsidian";
 import starlightUiTweaks from "starlight-ui-tweaks";
 import llmTranslator from "astro-llm-translator";
 import starlightTranslator from 'astro-llm-translator/starlight'; // Import the plugin
@@ -39,11 +39,11 @@ export default defineConfig({
         starlightObsidian({
           vault: "./Herbarium",
           sidebar: {
-            label: "知识库",
-            collapsedFolders: true,
-            translations: {
-              en: "Notes",
+            label: {
+              'zh-CN': '知识库',
+              en: 'Notes'
             },
+            collapsedFolders: true,
           },
           copyFrontmatter: "starlight",
         }),

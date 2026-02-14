@@ -159,5 +159,12 @@
     "completedLangs": [
       "en"
     ]
+  },
+  "elegant-firefox": {
+    "sourceHash": "0e57bef6fed2c73258d2a455b0e23cc44902ca7475da2cce7e8cfd31db68df98",
+    "relativePath": "notes/🔧 工具/优雅高效的 Firefox 配置.md",
+    "completedLangs": [
+      "en"
+    ]
   }
 }

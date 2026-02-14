@@ -14,7 +14,7 @@
     "@lorenzo_lewis/starlight-utils": "^0.3.2",
     "astro": "^5.6.1",
     "astro-embed": "^0.12.0",
-    "astro-llm-translator": "^1.1.1",
+    "astro-llm-translator": "^1.2.0",
     "sharp": "^0.34.2",
     "starlight-giscus": "^0.8.1",
     "starlight-obsidian": "^0.11.0",

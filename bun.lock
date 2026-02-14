@@ -8,7 +8,7 @@
         "@lorenzo_lewis/starlight-utils": "^0.3.2",
         "astro": "^5.6.1",
         "astro-embed": "^0.12.0",
-        "astro-llm-translator": "^1.1.1",
+        "astro-llm-translator": "^1.2.0",
         "sharp": "^0.34.2",
         "starlight-giscus": "^0.8.1",
         "starlight-obsidian": "^0.11.0",
@@ -391,7 +391,7 @@
 
     "astro-integration-kit": ["astro-integration-kit@0.18.0", "", { "dependencies": { "pathe": "^1.1.2", "recast": "^0.23.7" }, "peerDependencies": { "astro": "^4.12.0 || ^5.0.0" } }, "sha512-Z0QW5IQjosuKQDEGYYkvUX6EhEtrmE4/oViqWz23QveV8U7AuyFsTdg00WRNPevWZl/5a4lLUeDpv4bCRynRRg=="],
 
-    "astro-llm-translator": ["astro-llm-translator@1.1.1", "", { "dependencies": { "dotenv": "^17.2.3", "github-slugger": "^2.0.0", "glob": "^13.0.0", "gray-matter": "^4.0.3", "zod": "3" }, "peerDependencies": { "astro": "^5.0.0", "openai": "^4.0.0 || ^5.0.0 || ^6.0.0" } }, "sha512-u28aze4wofKef8SFVYsIk2DQTldZZJzYY2JJD9bOwi+ttQSVvT4Mww3hzYjGWXpZk2QZSthx2grYCBoPETya0g=="],
+    "astro-llm-translator": ["astro-llm-translator@1.2.0", "", { "dependencies": { "dotenv": "^17.2.3", "github-slugger": "^2.0.0", "glob": "^13.0.0", "gray-matter": "^4.0.3", "p-limit": "^7.2.0", "zod": "3" }, "peerDependencies": { "astro": "^5.0.0", "openai": "^4.0.0 || ^5.0.0 || ^6.0.0" } }, "sha512-F12LJUEv+rXjiC46aveJTJNSiRCwtCEC+RGTk2RusK/Dt0RmSp39L3oD04/hUv+y1AtA/uVsvFf2oHof/LMa0Q=="],
 
     "await-lock": ["await-lock@2.2.2", "", {}, "sha512-aDczADvlvTGajTDjcjpJMqRkOF6Qdz3YbPZm/PyW6tKPkx2hlYBzxMhEywM/tU72HrVZjgl5VCdRuMlA7pZ8Gw=="],
 
@@ -1270,6 +1270,8 @@
     "ansi-align/string-width": ["string-width@4.2.3", "", { "dependencies": { "emoji-regex": "^8.0.0", "is-fullwidth-code-point": "^3.0.0", "strip-ansi": "^6.0.1" } }, "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g=="],
 
     "anymatch/picomatch": ["picomatch@2.3.1", "", {}, "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="],
+
+    "astro-llm-translator/p-limit": ["p-limit@7.3.0", "", { "dependencies": { "yocto-queue": "^1.2.1" } }, "sha512-7cIXg/Z0M5WZRblrsOla88S4wAK+zOQQWeBYfV3qJuJXMr+LnbYjaadrFaS0JILfEDPVqHyKnZ1Z/1d6J9VVUw=="],
 
     "csso/css-tree": ["css-tree@2.2.1", "", { "dependencies": { "mdn-data": "2.0.28", "source-map-js": "^1.0.1" } }, "sha512-OA0mILzGc1kCOCSJerOeqDxDQ4HOh+G8NbOJFOTgOCzpw7fCBubk0fEyxp8AgOL/jvLgYA/uV0cMbe43ElF1JA=="],
 
